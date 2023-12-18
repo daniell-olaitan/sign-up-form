@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="sidebar">
+      <div id="logo">
+        <div id="logo-text">ROBOTIC</div>
+      </div>
+      <div id="img">
+        <img src="./assets/images/robot-reading.jpg" alt="Reading Robot" id="sidebar-img">
+        <div id="sidebar-footer">
+          Photo by
+          <a
+            href="https://unsplash.com/@santesson89?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Andrea De Santis
+          </a> on
+          <a
+            href="https://unsplash.com/photos/black-and-white-robot-toy-on-red-wooden-table-zwd435-ewb4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Unsplash
+          </a>
+        </div>
+      </div>
+      <h2>Sign up today to learn more about robots!</h2>
+    </div>
+
+    <form action="#" method="post">
+      <h1>Get Started</h1>
+      <section id="personal-info">
+        <div class="form-control">
+          <input type="text" id="first-name" name="first_name" placeholder="" required>
+          <label for="first-name">FIRST NAME</label>
+        </div>
+        <div class="form-control">
+          <input type="text" id="last-name" name="last_name" placeholder="" required>
+          <label for="last-name">LAST NAME</label>
+        </div>
+        <div class="form-control">
+          <input type="email" id="email" name="user_email" placeholder="" required>
+          <label for="email">EMAIL</label>
+        </div>
+        <div class="form-control">
+          <input type="tel" id="tel" name="user_phone" placeholder="" required>
+          <label for="tel">PHONE NUMBER</label>
+        </div>
+        <div class="form-control">
+          <input type="password" id="pwd" name="user_pwd" placeholder="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
+          <label for="pwd">PASSWORD</label>
+        </div>
+        <div class="form-control">
+          <input type="password" id="pwd-confirm" placeholder="" required>
+          <label for="pwd-confirm">CONFIRM PASSWORD</label>
+        </div>
+      </section>
+
+      <div id="form-footer">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </form>
+  </div>
+  <footer>
+    Developed by
+    <a href="https://github.com/daniell-olaitan" target="blank" rel="noreferrer noopener">devBOT</a>
+  </footer>
+</body>
+
+</html>
